@@ -12,6 +12,23 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT || 3000;
 
+// Session Configuration
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'default-secret-key',
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    secure: process.env.NODE_ENV === 'production',
+    maxAge: 1000 * 60 * 60 * 24, // 1 hari
+  }
+}));
+
+// Custom middleware untuk membuat data user tersedia di semua view
+app.use((req, res, next) => {
+  res.locals.user = req.session.user;
+  next();
+})
+
 // View Engine (EJS)
 app.use(expressEjsLayouts);
 app.set('view engine', 'ejs');
@@ -21,18 +38,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../public')));
-
-// Session Configuration
-app.use(session({
-  secret: process.env.SESSION_SECRET || 'default-secret-key',
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    secure: process.env.NODE_ENV === 'production',
-    maxAge: 1000 * 60 * 60 * 24, // 1 hari
-
-  }
-}));
 
 // Routes
 app.use('/api', apiRouter);

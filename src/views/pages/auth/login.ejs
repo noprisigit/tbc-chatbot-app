@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<%- include('../../partials/head') %>
+
+   <body>
+      <!-- BEGIN GLOBAL THEME SCRIPT -->
+      <script src="./dist/js/tabler-theme.min.js?1752697819"
+         integrity="sha384-SoDJmj40r6f9Rfxi6Fq+bNS8ofhlZMyxHk9dq9Y8e1M17PZGkBRN/XUpx8swn0i5"></script>
+      <!-- END GLOBAL THEME SCRIPT -->
+      <div class="page page-center">
+         <div class="container container-tight py-4">
+            <div class="text-center mb-4">
+               <!-- BEGIN NAVBAR LOGO -->
+               <a href="" aria-label="Tabler" class="navbar-brand navbar-brand-autodark">
+                  <img src="/img/logo-sibimo.png" alt="Logo Si BIMO" class="img-fluid" width="120">
+               </a><!-- END NAVBAR LOGO -->
+            </div>
+            <div class="card card-md">
+               <div class="card-body">
+                  <h2 class="h2 text-center mb-4">Masuk</h2>
+
+                  <% if (typeof errorMessage !=='undefined' && errorMessage) { %>
+                     <div class="alert alert-important alert-danger alert-dismissible" role="alert">
+                        <div class="alert-icon">
+                           <!-- Download SVG icon from http://tabler.io/icons/icon/alert-circle -->
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" class="icon alert-icon icon-2">
+                              <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+                              <path d="M12 8v4"></path>
+                              <path d="M12 16h.01"></path>
+                           </svg>
+                        </div>
+                        <div>
+                           <h4 class="alert-heading mb-0">
+                              <%= errorMessage %>
+                           </h4>
+                        </div>
+                        <a class="btn-close" data-bs-dismiss="alert" aria-label="close"></a>
+                     </div>
+                     <% } %>
+
+                        <form action="/login" method="post" autocomplete="off">
+                           <div class="mb-3">
+                              <label class="form-label" for="email">Email</label>
+                              <input type="email" name="email" id="email"
+                                 class="form-control <%= typeof errors !== 'undefined' && errors.email ? 'is-invalid' : '' %>"
+                                 placeholder="your@email.com" autocomplete="off"
+                                 value="<%= typeof oldInput !== 'undefined' ? oldInput.email : '' %>" />
+
+                              <% if (typeof errors !=='undefined' && errors.email) { %>
+                                 <div class="invalid-feedback">
+                                    <%= errors.email %>
+                                 </div>
+                                 <% } %>
+                           </div>
+                           <div class="mb-2">
+                              <label class="form-label" for="password">
+                                 Password
+                              </label>
+                              <input type="password" name="password" id="password"
+                                 class="form-control <%= typeof errors !== 'undefined' && errors.password ? 'is-invalid' : '' %>"
+                                 placeholder="Your password" autocomplete="off" />
+
+                              <% if (typeof errors !=='undefined' && errors.password) { %>
+                                 <div class="invalid-feedback">
+                                    <%= errors.password %>
+                                 </div>
+                                 <% } %>
+                           </div>
+                           <div class="form-footer">
+                              <button type="submit" class="btn btn-primary w-100">
+                                 <i class="fas fa-sign-in-alt me-1"></i>
+                                 Masuk
+                              </button>
+                           </div>
+                        </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <%- include('../../partials/scripts') %>
+         <%= script=`` %>
+   </body>
+
+</html>
