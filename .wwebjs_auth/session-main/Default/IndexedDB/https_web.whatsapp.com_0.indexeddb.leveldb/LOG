@@ -1,0 +1,66 @@
+2025/07/31-19:24:03.055 bb9bf Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/31-19:24:03.055 bb9bf Recovering log #174
+2025/07/31-19:24:03.085 bb9bf Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000174.log 
+2025/07/31-19:24:03.085 bb9bf Delete type=2 #175
+2025/07/31-19:24:03.085 bb9bf Delete type=2 #173
+2025/07/31-19:24:05.395 bb9bf Level-0 table #179: started
+2025/07/31-19:24:05.410 bb9bf Level-0 table #179: 985115 bytes OK
+2025/07/31-19:24:05.412 bb9bf Delete type=0 #174
+2025/07/31-19:24:05.413 bb9bf Manual compaction at level-0 from '\x00K\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00L\x00\x00\x00' @ 0 : 0; will stop at '\x00M\x00\x00\x05' @ 224502 : 1
+2025/07/31-19:24:05.413 bb9bf Compacting 1@0 + 1@1 files
+2025/07/31-19:24:05.463 bb9bf Generated table #180@0: 113068 keys, 2278016 bytes
+2025/07/31-19:24:05.466 bb9bf Generated table #181@0: 3597 keys, 61361 bytes
+2025/07/31-19:24:05.466 bb9bf Compacted 1@0 + 1@1 files => 2339377 bytes
+2025/07/31-19:24:05.467 bb9bf compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/07/31-19:24:05.467 bb9bf Delete type=2 #179
+2025/07/31-19:24:05.468 bb9bf Manual compaction at level-0 from '\x00M\x00\x00\x05' @ 224502 : 1 .. '\x00L\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-19:24:05.468 bb9bf Level-0 table #183: started
+2025/07/31-19:24:05.469 bb9bf Level-0 table #183: 249 bytes OK
+2025/07/31-19:24:05.470 bb9bf Delete type=2 #176
+2025/07/31-19:24:05.470 bb9bf Delete type=0 #178
+2025/07/31-19:24:05.470 bb9bf Manual compaction at level-0 from '\x00L\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00M\x00\x00\x00' @ 0 : 0; will stop at '\x00L\x00\x00\x05' @ 224543 : 0
+2025/07/31-19:24:05.470 bb9bf Compacting 1@0 + 2@1 files
+2025/07/31-19:24:05.510 bb9bf Generated table #184@0: 113068 keys, 2277784 bytes
+2025/07/31-19:24:05.513 bb9bf Generated table #185@0: 3595 keys, 61335 bytes
+2025/07/31-19:24:05.513 bb9bf Compacted 1@0 + 2@1 files => 2339119 bytes
+2025/07/31-19:24:05.514 bb9bf compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/07/31-19:24:05.514 bb9bf Delete type=2 #183
+2025/07/31-19:24:05.515 bb9bf Manual compaction at level-0 from '\x00L\x00\x00\x05' @ 224543 : 0 .. '\x00M\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-19:24:05.515 bb9bf Level-0 table #187: started
+2025/07/31-19:24:05.516 bb9bf Level-0 table #187: 249 bytes OK
+2025/07/31-19:24:05.517 bb9bf Delete type=2 #180
+2025/07/31-19:24:05.517 bb9bf Delete type=2 #181
+2025/07/31-19:24:05.517 bb9bf Delete type=0 #182
+2025/07/31-19:24:05.518 bb9bf Manual compaction at level-0 from '\x00M\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00N\x00\x00\x00' @ 0 : 0; will stop at '\x00M\x00\x00\x05' @ 224549 : 0
+2025/07/31-19:24:05.518 bb9bf Compacting 1@0 + 2@1 files
+2025/07/31-19:24:05.562 bb9bf Generated table #188@0: 113068 keys, 2277696 bytes
+2025/07/31-19:24:05.565 bb9bf Generated table #189@0: 3593 keys, 61313 bytes
+2025/07/31-19:24:05.565 bb9bf Compacted 1@0 + 2@1 files => 2339009 bytes
+2025/07/31-19:24:05.567 bb9bf compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/07/31-19:24:05.567 bb9bf Delete type=2 #187
+2025/07/31-19:24:05.567 bb9bf Manual compaction at level-0 from '\x00M\x00\x00\x05' @ 224549 : 0 .. '\x00N\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-19:27:49.682 bb9bf Compacting 1@1 + 1@2 files
+2025/07/31-19:27:49.743 bb9bf Generated table #190@1: 44734 keys, 1718224 bytes
+2025/07/31-19:27:49.743 bb9bf Compacted 1@1 + 1@2 files => 1718224 bytes
+2025/07/31-19:27:49.745 bb9bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/31-19:27:49.745 bb9bf Delete type=2 #188
+2025/07/31-19:27:49.745 bb9bf Delete type=2 #185
+2025/07/31-19:27:49.745 bb9bf Delete type=2 #184
+2025/07/31-19:27:49.745 bb9bf Delete type=2 #135
+2025/07/31-19:30:25.073 bb9bf Level-0 table #192: started
+2025/07/31-19:30:25.082 bb9bf Level-0 table #192: 638405 bytes OK
+2025/07/31-19:30:25.084 bb9bf Delete type=2 #71
+2025/07/31-19:30:25.084 bb9bf Delete type=0 #70
+2025/07/31-19:30:25.084 bb9bf Delete type=0 #186
+2025/07/31-19:30:25.085 bb9bf Manual compaction at level-0 from '\x00P\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Q\x00\x00\x00' @ 0 : 0; will stop at '\x00P\x00\x00\x05' @ 246675 : 1
+2025/07/31-19:30:25.085 bb9bf Compacting 1@0 + 1@1 files
+2025/07/31-19:30:25.094 bb9bf Generated table #193@0: 16403 keys, 345082 bytes
+2025/07/31-19:30:25.094 bb9bf Compacted 1@0 + 1@1 files => 345082 bytes
+2025/07/31-19:30:25.096 bb9bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/31-19:30:25.096 bb9bf Delete type=2 #192
+2025/07/31-19:30:25.097 bb9bf Manual compaction at level-0 from '\x00P\x00\x00\x05' @ 246675 : 1 .. '\x00Q\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/31-19:30:25.338 bb9c1 Compacting 1@1 + 1@2 files
+2025/07/31-19:30:25.381 bb9c1 Generated table #194@1: 53531 keys, 1987624 bytes
+2025/07/31-19:30:25.381 bb9c1 Compacted 1@1 + 1@2 files => 1987624 bytes
+2025/07/31-19:30:25.382 bb9c1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/31-19:30:25.383 bb9c1 Delete type=2 #193

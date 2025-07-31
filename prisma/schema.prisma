@@ -21,4 +21,38 @@ model User {
   status    String   @default("active")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Customer {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String   @unique
+  status    String   @default("active")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+  @@map("customers")
+}
+
+model ReminderSchedule {
+  id        String   @id @default(cuid())
+  cron      String // format cron seperti "0 8 * * *"
+  message   String   @db.LongText
+  status    String   @default("active") // bisa "active" atau "inactive"
+  createdAt DateTime @default(now())
+
+  @@map("reminder_schedules")
+}
+
+model Log {
+  id        String   @id @default(cuid())
+  level     String // Level log (info, error, warn)
+  message   String   @db.Text // Pesan log, bisa sangat panjang
+  context   String?
+  meta      Json? // Metadata tambahan dalam format JSON
+  timestamp DateTime @default(now()) // Waktu log dibuat
+
+  @@map("logs") // Nama tabel di database akan menjadi "logs"
 }

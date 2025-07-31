@@ -1,0 +1,33 @@
+{
+  "greetings": [
+    "halo",
+    "hai",
+    "hi",
+    "hello",
+    "hallo",
+    "assalamualaikum",
+    "assalamu alaikum",
+    "selamat pagi",
+    "selamat siang",
+    "selamat sore",
+    "selamat malam",
+    "pagi",
+    "siang",
+    "sore",
+    "malam",
+    "yo",
+    "woy",
+    "oi"
+  ],
+  "bimoKeywords": [
+    "bimo",
+    "sibimo",
+    "si bimo",
+    "si-bimo",
+    "si_bimo",
+    "si.bimo",
+    "bang bimo",
+    "om bimo",
+    "kak bimo"
+  ]
+}

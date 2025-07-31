@@ -1,0 +1,79 @@
+<div class="card shadow">
+  <div class="card-header d-flex align-items-center justify-content-between">
+    <h3 class="card-title">
+      Daftar Jadwal Notifikasi
+    </h3>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalReminder">
+      <i class="fas fa-plus me-1"></i>
+      Tambah Jadwal
+    </button>
+  </div>
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table table-bordered" id="reminderTable" width="100%" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Pesan</th>
+            <th>Waktu (Cron)</th>
+            <th>Status</th>
+            <th>Dibuat</th>
+            <th class="text-nowrap">Aksi</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalReminder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Tambah Jadwal</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form id="formReminder" method="post">
+        <div class="modal-body">
+          <input type="hidden" id="reminderId" />
+          <div class="form-group mb-3">
+            <label class="form-label" for="message">Pesan</label>
+            <textarea class="form-control" name="message" id="message"></textarea>
+            <small class="text-muted fst-italic">
+              * Sertakan format <code>{{name}}</code> jika ingin menampilka <strong>Nama Pengguna</strong> di pesan
+              notifikasi.
+            </small>
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label" for="cron">Waktu (Cron Expression)</label>
+            <input type="text" class="form-control" name="cron" id="cron" placeholder="Contoh: * * * * *" />
+            <small class="text-muted fst-italic">* Untuk contoh pengisian Waktu (Cron Expression) dapat merujuk pada
+              link berikut <a href="https://crontab.cronhub.io/" target="_blank">https://crontab.cronhub.io/</a></small>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="status">Status</label>
+            <select class="form-control" name="status" id="status">
+              <option value="active">Aktif</option>
+              <option value="inactive">Tidak Aktif</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            <i class="fas fa-times me-1"></i>
+            Batal
+          </button>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane me-1"></i>
+            Kirim
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<% script=` <script src="/js/pages/reminder.js">
+  </script>
+  `; %>

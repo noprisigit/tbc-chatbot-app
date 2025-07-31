@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  # Layanan untuk Database MySQL
+  db:
+    image: mysql:8.0
+    container_name: mysql_db
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_tbc_wa_bot
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  # Layanan untuk Aplikasi Web (Express)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node_app
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: "mysql://root:root@db:3306/db_tbc_wa_bot"
+      PORT: 3000
+      NODE_ENV: production
+      # Tambahkan variabel environment lain yang dibutuhkan di sini
+      SESSION_SECRET: "your_production_session_secret"
+      GEMINI_API_KEY: "AIzaSyDZUl69wxNvSK-mej-TvB23yMD59K8q8AQ"
+      CHROME_PATH: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+volumes:
+  mysql_data:
