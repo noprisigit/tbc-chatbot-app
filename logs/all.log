@@ -3216,3 +3216,82 @@
 2025-07-31 19:33:44:3344 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-07-31 19:34:44:3444 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-07-31 19:35:44:3544 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 10ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:02:282 [32minfo[39m: [32m🤖 Memulai WhatsApp Bot...[39m
+2025-08-01 07:28:03:283 [32minfo[39m: [32m✅ 3 pengingat dari DB dijadwalkan[39m
+2025-08-01 07:28:08:288 [35mhttp[39m: [35mGET / 302 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:08:288 [35mhttp[39m: [35mGET /dashboard 302 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:08:288 [35mhttp[39m: [35mGET /login 200 6ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:09:289 [32minfo[39m: [32m✅ QR Code diperbarui, scan di UI.[39m
+2025-08-01 07:28:09:289 [31merror[39m: [31mGET /dist/js/tabler-theme.min.js?1752697819 404 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:09:289 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:09:289 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:09:289 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [35mhttp[39m: [35mPOST /login 302 311ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [35mhttp[39m: [35mGET /dashboard 200 31ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [35mhttp[39m: [35mGET /api/whatsapp/qr 200 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [31merror[39m: [31mGET /favicon.ico 404 6ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:18:2818 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:20:2820 [35mhttp[39m: [35mGET /dashboard 304 18ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:20:2820 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:21:2821 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:21:2821 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:21:2821 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:21:2821 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:31:2831 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:41:2841 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:48:2848 [32minfo[39m: [32m✅ WhatsApp sudah siap.[39m
+2025-08-01 07:28:51:2851 [35mhttp[39m: [35mGET /api/whatsapp/qr 200 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [35mhttp[39m: [35mGET /reminders 200 11ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [35mhttp[39m: [35mGET /api/reminders/datatables?_=1754008134408 200 20ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:28:54:2854 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:29:17:2917 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 11ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:29:31:2931 [32minfo[39m: [32m✅ 4 pengingat dari DB dijadwalkan[39m
+2025-08-01 07:29:31:2931 [32minfo[39m: [32m✅ Rerun all active schedules[39m
+2025-08-01 07:29:31:2931 [35mhttp[39m: [35mPOST /api/reminders 200 59ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:29:31:2931 [35mhttp[39m: [35mGET /api/reminders/datatables?_=1754008134409 200 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:30:00:300 [32minfo[39m: [32m⏰ Kirim reminder berdasarkan jadwal DB - ID: cmds36ekf0004u9bvnol9bx68[39m
+2025-08-01 07:30:01:301 [32minfo[39m: [32m✅ Reminder terkirim ke 6281278054225[39m
+2025-08-01 07:30:04:304 [32minfo[39m: [32m✅ Reminder terkirim ke 6282372520890‬[39m
+2025-08-01 07:30:14:3014 [35mhttp[39m: [35mGET /logs 200 50ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:30:15:3015 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:30:15:3015 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:30:15:3015 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:00:310 [32minfo[39m: [32m💬 Pesan diterima dari 6281278054225@c.us: "Terima kasih sudah mengingatkan[39m
+2025-08-01 07:31:07:317 [35mhttp[39m: [35mGET /logs 200 29ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:07:317 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:07:317 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:07:317 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:07:317 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 07:31:08:318 [32minfo[39m: [32m🤖 Balasan AI dikirim ke 6281278054225@c.us[39m
+2025-08-01 07:33:02:332 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:48:56:4856 [32minfo[39m: [32m🤖 Memulai WhatsApp Bot...[39m
+2025-08-01 10:48:58:4858 [32minfo[39m: [32m✅ 4 pengingat dari DB dijadwalkan[39m
+2025-08-01 10:48:59:4859 [35mhttp[39m: [35mGET / 302 12ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:48:59:4859 [35mhttp[39m: [35mGET /dashboard 302 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:48:59:4859 [35mhttp[39m: [35mGET /login 200 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:48:59:4859 [31merror[39m: [31mGET /dist/js/tabler-theme.min.js?1752697819 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:00:490 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:00:490 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:00:490 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [35mhttp[39m: [35mPOST /login 302 367ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [35mhttp[39m: [35mGET /dashboard 200 70ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 39ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [31merror[39m: [31mGET /favicon.ico 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [35mhttp[39m: [35mGET /api/whatsapp/qr 200 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [31merror[39m: [31mGET /favicon.ico 404 6ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:04:494 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:06:496 [35mhttp[39m: [35mGET /reminders 304 12ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:06:496 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:07:497 [31merror[39m: [31mGET /favicon.ico 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:07:497 [31merror[39m: [31mGET /favicon.ico 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:07:497 [35mhttp[39m: [35mGET /api/reminders/datatables?_=1754020147000 200 26ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:07:497 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 16ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 10:49:16:4916 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-01 14:25:00:250 [32minfo[39m: [32m⏰ Kirim reminder berdasarkan jadwal DB - ID: cmdr28qmk000eu91e8ehp8xrh[39m
+2025-08-01 14:25:00:250 [33mwarn[39m: [33mWhatsapp belum siap![39m
+2025-08-01 14:25:00:250 [31merror[39m: [31m❌ Gagal kirim reminder dari jadwal cmdr28qmk000eu91e8ehp8xrh:[39m

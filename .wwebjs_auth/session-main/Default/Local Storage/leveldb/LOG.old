@@ -1,8 +1,2 @@
-2025/07/31-19:19:46.358 ba9c2 Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001
-2025/07/31-19:19:46.361 ba9c2 Recovering log #12
-2025/07/31-19:19:46.363 ba9c2 (ignoring error) /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000012.log: dropping 22807 bytes; Corruption: bad record length
-2025/07/31-19:19:46.363 ba9c2 (ignoring error) /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000012.log: dropping 4422 bytes; Corruption: missing start of fragmented record(2)
-2025/07/31-19:19:46.364 ba9c2 Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000012.log 
-2025/07/31-19:21:47.007 ba9c2 Level-0 table #14: started
-2025/07/31-19:21:47.011 ba9c2 Level-0 table #14: 18045 bytes OK
-2025/07/31-19:21:47.015 ba9c2 Delete type=0 #12
+2025/08/01-07:28:04.177 d0d49 Creating DB /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb since it was missing.
+2025/08/01-07:28:04.193 d0d49 Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001

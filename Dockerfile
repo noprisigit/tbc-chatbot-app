@@ -3,31 +3,21 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Menginstal Chromium & dependensinya
+# Menginstal dependensi OS yang dibutuhkan
 RUN apk add --no-cache chromium udev ttf-freefont
 
-# Memberikan izin kepemilikan folder /app kepada user 'node'
-RUN chown -R node:node /app
-
-# Beralih ke user 'node' yang tidak memiliki hak root
-USER node
-
-# Menyalin file package.json dan package-lock.json
+# 1. Salin file package.json dan prisma schema
 COPY package*.json ./
+COPY prisma ./prisma/
 
-# Menginstal dependensi
-RUN npm install
+# 2. Instal dependensi
+RUN npm install --unsafe-perm
 
-# --- PERBAIKAN: Salin semua file proyek SEKARANG ---
-# Ini akan menyalin folder 'prisma' dan semua source code lainnya
+# 3. Salin sisa file proyek
 COPY . .
 
-# Menjalankan proses build dan generate
+# 4. Jalankan build
 RUN npm run build
-RUN npx prisma generate
-
-# Menyiapkan untuk produksi
-RUN npm prune --production
 
 
 # --- Tahap 2: Production ---
@@ -35,16 +25,18 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Menginstal Chromium di image produksi
+# Menginstal dependensi OS di image produksi
 RUN apk add --no-cache chromium udev ttf-freefont
 
-# Memberikan izin kepemilikan
-# Salin hasil build dan dependensi dari tahap builder
-COPY --chown=node:node --from=builder /app/dist ./dist
-COPY --chown=node:node --from=builder /app/node_modules ./node_modules
-COPY --chown=node:node --from=builder /app/prisma ./prisma
+# Menyalin file-file yang sudah siap dari tahap builder
+COPY --from=builder --chown=node:node /app/dist ./dist
+COPY --from=builder --chown=node:node /app/node_modules ./node_modules
+COPY --from=builder --chown=node:node /app/package*.json ./
 
-# Beralih ke user node untuk menjalankan aplikasi
+# --- PERBAIKAN: Salin folder prisma ke tahap produksi ---
+COPY --from=builder --chown=node:node /app/prisma ./prisma
+
+# Beralih ke user 'node' untuk keamanan
 USER node
 
 # Port yang akan diekspos
