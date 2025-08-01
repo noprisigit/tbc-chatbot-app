@@ -1,5 +1,7 @@
 # Dependencies
 /node_modules
+/.wwebjs_auth
+/.wwebjs_cache
 
 # Build folder
 /dist
