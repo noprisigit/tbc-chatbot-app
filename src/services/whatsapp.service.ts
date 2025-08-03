@@ -180,6 +180,7 @@ export async function runWhatsappService() {
 
     await client.initialize();
   } catch (err: any) {
+    console.log('Error Whatsapp Bot:', err);
     if (err.message.includes('SingletonLock')) {
       logger.error(`⚠️ SingletonLock error, mencoba membersihkan...`);
       await logApp('error', `⚠️ SingletonLock error, mencoba membersihkan...`, 'whatsapp');
