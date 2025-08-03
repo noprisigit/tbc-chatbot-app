@@ -3368,3 +3368,5 @@
 2025-08-03 11:59:10:5910 [35mhttp[39m: [35mGET /login 304 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-08-03 12:00:10:010 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 8ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-08-03 12:00:10:010 [35mhttp[39m: [35mGET /login 304 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 12:01:10:110 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 13ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 12:01:10:110 [35mhttp[39m: [35mGET /login 304 13ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m

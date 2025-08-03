@@ -3,6 +3,8 @@
 /.wwebjs_auth
 /.wwebjs_cache
 
+/logs
+
 # Build folder
 /dist
 
