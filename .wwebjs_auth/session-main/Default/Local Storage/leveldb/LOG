@@ -1,3 +1,7 @@
-2025/08/01-10:48:59.028 10ab11 Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001
-2025/08/01-10:48:59.031 10ab11 Recovering log #3
-2025/08/01-10:48:59.031 10ab11 Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000003.log 
+2025/08/03-11:54:50.438 c2a92 Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/MANIFEST-000001
+2025/08/03-11:54:50.442 c2a92 Recovering log #3
+2025/08/03-11:54:50.443 c2a92 Level-0 table #3: started
+2025/08/03-11:54:50.444 c2a92 Level-0 table #3: 12220 bytes OK
+2025/08/03-11:54:50.444 c2a92 Recovering log #14
+2025/08/03-11:54:50.445 c2a92 Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/Local Storage/leveldb/000014.log 
+2025/08/03-11:54:50.449 c2a92 Delete type=0 #3

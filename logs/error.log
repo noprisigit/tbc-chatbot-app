@@ -1730,3 +1730,24 @@
 2025-08-01 10:49:07:497 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 16ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-08-01 10:49:16:4916 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
 2025-08-01 14:25:00:250 [31merror[39m: [31m❌ Gagal kirim reminder dari jadwal cmdr28qmk000eu91e8ehp8xrh:[39m
+2025-08-03 11:55:46:5546 [31merror[39m: [31mGET /dist/js/tabler-theme.min.js?1752697819 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:48:5548 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 11ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 50ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:56:5556 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:37:5637 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:46:5646 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:06:576 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:12:5712 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:22:5722 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:33:5733 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:34:5734 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:11:5811 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m

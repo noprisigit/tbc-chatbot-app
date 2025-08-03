@@ -3295,3 +3295,76 @@
 2025-08-01 14:25:00:250 [32minfo[39m: [32m⏰ Kirim reminder berdasarkan jadwal DB - ID: cmdr28qmk000eu91e8ehp8xrh[39m
 2025-08-01 14:25:00:250 [33mwarn[39m: [33mWhatsapp belum siap![39m
 2025-08-01 14:25:00:250 [31merror[39m: [31m❌ Gagal kirim reminder dari jadwal cmdr28qmk000eu91e8ehp8xrh:[39m
+2025-08-03 11:54:49:5449 [32minfo[39m: [32m🤖 Memulai WhatsApp Bot...[39m
+2025-08-03 11:54:49:5449 [32minfo[39m: [32m✅ 4 pengingat dari DB dijadwalkan[39m
+2025-08-03 11:54:54:5454 [32minfo[39m: [32m✅ QR Code diperbarui, scan di UI.[39m
+2025-08-03 11:55:10:5510 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:10:5510 [35mhttp[39m: [35mGET /login 200 9ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:31:5531 [32minfo[39m: [32m✅ WhatsApp sudah siap.[39m
+2025-08-03 11:55:46:5546 [35mhttp[39m: [35mGET / 302 15ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:46:5546 [35mhttp[39m: [35mGET /dashboard 302 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:46:5546 [35mhttp[39m: [35mGET /login 200 10ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:46:5546 [31merror[39m: [31mGET /dist/js/tabler-theme.min.js?1752697819 404 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:48:5548 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 7ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [35mhttp[39m: [35mPOST /login 302 446ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [35mhttp[39m: [35mGET /dashboard 200 51ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 11ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [35mhttp[39m: [35mGET /api/whatsapp/qr 200 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:52:5552 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 50ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [35mhttp[39m: [35mGET /dashboard 304 15ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:54:5554 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:55:56:5556 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:05:565 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 8ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:10:5610 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:10:5610 [35mhttp[39m: [35mGET /login 304 9ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:15:5615 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:25:5625 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:35:5635 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:37:5637 [35mhttp[39m: [35mGET /dashboard 304 15ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:37:5637 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:37:5637 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [35mhttp[39m: [35mGET /dashboard 304 14ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [35mhttp[39m: [35mGET /dashboard 304 13ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:38:5638 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:46:5646 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:49:5649 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:56:59:5659 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:06:576 [35mhttp[39m: [35mGET /dashboard 200 17ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:06:576 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:06:576 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:10:5710 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:10:5710 [35mhttp[39m: [35mGET /login 200 5ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:12:5712 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:16:5716 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:22:5722 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 0ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:27:5727 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:33:5733 [35mhttp[39m: [35mGET /dashboard 200 42ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:33:5733 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:33:5733 [35mhttp[39m: [35mGET /api/whatsapp/qr 304 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:34:5734 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [35mhttp[39m: [35mGET /reminders 200 10ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mGET /.well-known/appspecific/com.chrome.devtools.json 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [35mhttp[39m: [35mGET /api/reminders/datatables?_=1754197059120 200 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:39:5739 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 1ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:57:51:5751 [35mhttp[39m: [35mGET /api/reminders/cmdr28qmk000eu91e8ehp8xrh 200 8ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:03:583 [32minfo[39m: [32m✅ 4 pengingat dari DB dijadwalkan[39m
+2025-08-03 11:58:03:583 [32minfo[39m: [32m✅ Rerun all active schedules[39m
+2025-08-03 11:58:03:583 [35mhttp[39m: [35mPUT /api/reminders/cmdr28qmk000eu91e8ehp8xrh 200 100ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:04:584 [35mhttp[39m: [35mGET /api/reminders/datatables?_=1754197059121 200 86ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:10:5810 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:10:5810 [35mhttp[39m: [35mGET /login 200 8ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:58:11:5811 [31merror[39m: [31mPOST /cdn-cgi/rum? 404 2ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:59:00:590 [32minfo[39m: [32m⏰ Kirim reminder berdasarkan jadwal DB - ID: cmdr28qmk000eu91e8ehp8xrh[39m
+2025-08-03 11:59:00:590 [32minfo[39m: [32m✅ Reminder terkirim ke 6281278054225[39m
+2025-08-03 11:59:04:594 [32minfo[39m: [32m✅ Reminder terkirim ke 6282372520890‬[39m
+2025-08-03 11:59:10:5910 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 12ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 11:59:10:5910 [35mhttp[39m: [35mGET /login 304 4ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 12:00:10:010 [35mhttp[39m: [35mGET /api/whatsapp/qr 302 8ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m
+2025-08-03 12:00:10:010 [35mhttp[39m: [35mGET /login 304 3ms - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 ::1[39m

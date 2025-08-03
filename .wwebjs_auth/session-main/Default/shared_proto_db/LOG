@@ -1,3 +1,8 @@
-2025/08/01-10:48:59.349 10aade Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/shared_proto_db/MANIFEST-000001
-2025/08/01-10:48:59.349 10aade Recovering log #3
-2025/08/01-10:48:59.352 10aade Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/shared_proto_db/000003.log 
+2025/08/03-11:54:50.751 c2a55 Reusing MANIFEST /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/shared_proto_db/MANIFEST-000001
+2025/08/03-11:54:50.752 c2a55 Recovering log #3
+2025/08/03-11:54:50.753 c2a55 Level-0 table #3: started
+2025/08/03-11:54:50.759 c2a55 Level-0 table #3: 109623 bytes OK
+2025/08/03-11:54:50.759 c2a55 Recovering log #4
+2025/08/03-11:54:50.760 c2a55 Reusing old log /Users/annesadeakusuma/Documents/sigit/projects/nodejs-ts-boilerplate/.wwebjs_auth/session-main/Default/shared_proto_db/000004.log 
+2025/08/03-11:54:50.764 c2a55 Delete type=0 #3
+2025/08/03-11:54:50.764 c2a55 Delete type=2 #5

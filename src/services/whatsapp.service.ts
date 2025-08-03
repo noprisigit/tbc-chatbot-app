@@ -6,6 +6,7 @@ import logger from '../lib/logger';
 import { generateText } from './gemini.service';
 import { logApp } from '../lib/logApp';
 import { prisma } from '../lib/prisma';
+import qrcodeTerminal from 'qrcode-terminal';
 
 
 let client: Client;
@@ -51,6 +52,9 @@ export async function runWhatsappService() {
     });
 
     client.on('qr', async (qr) => {
+      console.log('Generate QrCode di Terminal');
+      qrcodeTerminal.generate(qr, { small: true });
+
       if (!isReady) {
         qrCodeData = await QRCode.toDataURL(qr);
 
