@@ -20,10 +20,10 @@ app.use(session({
   secret: process.env.SESSION_SECRET || 'default-secret-key',
   resave: false,
   saveUninitialized: false,
-  cookie: {
-    secure: process.env.NODE_ENV === 'production',
-    maxAge: 1000 * 60 * 60 * 24, // 1 hari
-  }
+  // cookie: {
+  //   secure: process.env.NODE_ENV === 'production',
+  //   maxAge: 1000 * 60 * 60 * 24, // 1 hari
+  // }
 }));
 
 // Custom middleware untuk membuat data user tersedia di semua view
